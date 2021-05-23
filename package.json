@@ -7,7 +7,7 @@
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --dest build"
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
