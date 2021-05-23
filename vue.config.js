@@ -1,4 +1,3 @@
 module.exports = {
-  publicPath:
-    process.env.NODE_ENV === "production" ? "/vue-covid-traker/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/vue-covid-traker/" : "/",
 };
